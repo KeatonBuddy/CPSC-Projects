@@ -2,6 +2,8 @@
 A collection of computer science projects completed during my undergraduate coursework. This repository showcases various assignments and personal projects developed to enhance my understanding of programming concepts and problem-solving skills.
  
 ## 📁 Project Overview
+- **ARM and C Projects**: Low-level programming exercises in ARM assembly and C, covering topics like embedded systems startup code, memory-mapped I/O, and microcontroller interfacing.
+  
 - BeginnerCode: Introductory exercises focusing on fundamental programming constructs such as loops, conditionals, and basic data structures.
 
 - CandyCrush: A simplified version of the popular Candy Crush game, emphasizing array manipulation and game logic implementation.
@@ -17,7 +19,7 @@ A collection of computer science projects completed during my undergraduate cour
 - Pig Game: An implementation of the Pig dice game, emphasizing turn-based logic and random number generation.
 
 ## 🛠 Technologies Used
-- Languages: Python, C
+- Languages: Python, C, ARM Assembly
 
 - Concepts: Object-Oriented Programming, Data Structures, Algorithms, Game Development, File I/O
 
@@ -37,6 +39,14 @@ Edit
 cd CPSC-Projects/Hangman
 ```
 ### Run the project:
+- ARM assembly examples
+Assemble and link (ARM toolchain required):
+```
+bash
+arm-none-eabi-as hello_world.s -o hello_world.o
+arm-none-eabi-ld hello_world.o -o hello_world.elf
+qemu-arm hello_world.elf
+```
 
 - For Python projects:
 ```
