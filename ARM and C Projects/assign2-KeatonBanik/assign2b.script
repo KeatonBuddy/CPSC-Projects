@@ -1,0 +1,107 @@
+Script started on 2020-10-11 05:38:57-06:00
+]0;keaton.banik1@csa1:~/Desktop/355/A2keaton.banik1@csa1:~/Desktop/355/A2$ exitgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[17Pdb[C[C[C[C[C[C[C[C[C[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[13Pemacs assign2a.scd A2[K355Desktop[1PDesktopgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[13Pemacs assign2a.s[4Pgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[13Pemacs assign2a.s[4Pgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[13Pemacs assign2a.s[4Pgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[13Pemacs assign2a.s[4Pgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[13Pemacs assign2a.sgcc assign2a.s -g -o assign2a[13Pemacs assign2a.sgcc assign2a.s -g -o assign2a[13Pemacs assign2a.sgcc assign2a.s -g -o assign2a[13Pemacs assign2a.s[4Pgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[17Pdb[C[C[C[C[C[C[C[C[C[14@cc assign2a.s -o[C[C[C[C[C[C[C[C[C[10Pemacs assign2a.s[4Pgdb assign2aemacs assign2a.sgcc assign2a.s -o assign2a[14Pdb[C[C[C[C[C[C[C[C[C[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[17Pdb[C[C[C[C[C[C[C[C[Cemacs assign2a.sgcc assign2a.s -g -o assign2a[13Pemacs assign2a.sgcc assign2a.s -g -o assign2a[13Pemacs assign2a.sgcc assign2a.s -g -o assign2a[13Pemacs assign2a.sgcc assign2a.s -g -o assign2a[17Pdb[C[C[C[C[C[C[C[C[Cemacs assign2a.sgcc assign2a.s -g -o assign2a[17Pdb[C[C[C[C[C[C[C[C[Cemacs assign2a.sgcc assign2a.s -g -o assign2a[17Pdb[C[C[C[C[C[C[C[C[Cemacs assign2a.sgcc assign2a.s -g -o assign2a[17Pdb[C[C[C[C[C[C[C[C[Cemacs assign2a.sgcc assign2a.s -g -o assign2a[17Pdb[C[C[C[C[C[C[C[C[C[3PcdDesktop Desktop[4P355[1PA2emacs assign2a.sgcc assign2a.s -g -o assign2a[17Pdb[C[C[C[C[C[C[C[C[C[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[17Pdb[C[C[C[C[C[C[C[C[C[8Pexit[Km4 assign2b.asm > assign2b.s
+]0;keaton.banik1@csa1:~/Desktop/355/A2keaton.banik1@csa1:~/Desktop/355/A2$ m4 assign2b.asm > assign2b.sexit[Km4 assign2b.asm > assign2b.sexit[Kgdb assign2a[17@cc assign2a.s -g -o[C[C[C[C[C[C[C[C[C[Kb[1P[1@b
+]0;keaton.banik1@csa1:~/Desktop/355/A2keaton.banik1@csa1:~/Desktop/355/A2$ gcc assign2b.s -g -o assign2b[1Pm4 assign2b.asm > assign2b.sexit[Kgdb assign2a[Kb
+GNU gdb (GDB) Fedora 8.1.1-4.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign2b...done.
+(gdb) r
+Starting program: /home/uga/keaton.banik1/Desktop/355/A2/assign2b 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-38.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Enter a number between 5-20: 4
+User Input is too low, Please Try again 
+[Inferior 1 (process 2441) exited with code 051]
+(gdb) r[Kr
+Starting program: /home/uga/keaton.banik1/Desktop/355/A2/assign2b 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Enter a number between 5-20: 21
+User Input is too high, Please Try again 
+[Inferior 1 (process 2446) exited with code 052]
+(gdb) r
+Starting program: /home/uga/keaton.banik1/Desktop/355/A2/assign2b 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Enter a number between 5-20: 15
+
+ The input numbers are: 
+5 6 3 4 8 0 2 7 9 4 2 7 8 2 3 The size of the document is: 70 
+The Lowest frequency in the document is: 0 % 
+The Highest frequency in the document is: 12 % 
+[Inferior 1 (process 2450) exited with code 060]
+(gdb) r
+Starting program: /home/uga/keaton.banik1/Desktop/355/A2/assign2b 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Enter a number between 5-20: 10
+
+ The input numbers are: 
+8 3 3 2 4 4 9 1 6 5 The size of the document is: 45 
+The Lowest frequency in the document is: 2 % 
+The Highest frequency in the document is: 20 % 
+[Inferior 1 (process 2463) exited with code 060]
+(gdb) r
+Starting program: /home/uga/keaton.banik1/Desktop/355/A2/assign2b 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Enter a number between 5-20: 5
+
+ The input numbers are: 
+3 0 7 6 3 The size of the document is: 19 
+The Lowest frequency in the document is: 0 % 
+The Highest frequency in the document is: 36 % 
+[Inferior 1 (process 2474) exited with code 060]
+(gdb) r
+Starting program: /home/uga/keaton.banik1/Desktop/355/A2/assign2b 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+Enter a number between 5-20: 20
+
+ The input numbers are: 
+5 0 3 8 0 6 8 3 4 4 4 5 8 8 7 0 6 8 4 7 The size of the document is: 98 
+The Lowest frequency in the document is: 0 % 
+The Highest frequency in the document is: 8 % 
+[Inferior 1 (process 2479) exited with code 057]
+(gdb) q
+]0;keaton.banik1@csa1:~/Desktop/355/A2keaton.banik1@csa1:~/Desktop/355/A2$ exit
+exit
+
+Script done on 2020-10-11 05:40:03-06:00
