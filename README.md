@@ -26,23 +26,16 @@ A collection of computer science projects completed during my undergraduate cour
 ## 🚀 Getting Started
 ### Clone the repository:
 ```
-bash
-Copy
-Edit
 git clone https://github.com/KeatonBuddy/CPSC-Projects.git
 ```
 ### Navigate to a project directory:
 ```
-bash
-Copy
-Edit
 cd CPSC-Projects/Hangman
 ```
 ### Run the project:
 - ARM assembly examples
 Assemble and link (ARM toolchain required):
 ```
-bash
 arm-none-eabi-as hello_world.s -o hello_world.o
 arm-none-eabi-ld hello_world.o -o hello_world.elf
 qemu-arm hello_world.elf
@@ -50,17 +43,11 @@ qemu-arm hello_world.elf
 
 - For Python projects:
 ```
-bash
-Copy
-Edit
 python hangman.py
 ```
 - For C projects:
 
 ```
-bash
-Copy
-Edit
 gcc main.c -o main
 ./main
 ```
