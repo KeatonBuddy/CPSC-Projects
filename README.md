@@ -1,7 +1,6 @@
 # CPSC-Projects 🎓
-A collection of computer science projects. This repository showcases various assignments and personal projects developed to enhance my understanding of programming concepts and problem-solving skills.
-*This work was conducted to fulfill the CPSC 231 course requirement at the University of Calgary*
-
+A collection of computer science projects completed during my undergraduate coursework. This repository showcases various assignments and personal projects developed to enhance my understanding of programming concepts and problem-solving skills.
+ 
 ## 📁 Project Overview
 - BeginnerCode: Introductory exercises focusing on fundamental programming constructs such as loops, conditionals, and basic data structures.
 
